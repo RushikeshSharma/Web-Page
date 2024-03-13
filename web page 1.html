@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Two-Part Webpage</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .upper {
+        flex: 2;
+        display: flex;
+        align-items: stretch;
+    }
+    .lower {
+        flex: 1;
+        background-color: black;
+        color: white; 
+        padding: 20px;
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+      
+    }
+
+        
+    
+    .left {
+        flex: 1;
+        background-color: #FFCD9E;
+        padding-left: 120px;
+        padding-top: 80px;
+        
+    }
+    .right {
+        flex: 1;
+        background-color: #FFCD9E;
+        padding-left: 280px;
+        padding-bottom: 30px;
+        
+        
+    }
+    .container {
+       height: fit-content;
+       width: fit-content;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        border: 4px solid #000000;
+        border-radius: 8px;
+        right: inherit;
+    }
+
+    .email-input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        padding: 0 10px;
+        font-size: 25px;
+        border-radius: 8px 0 0 8px;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .register-button {
+        width: 100%;
+        height: 100%;
+        border: none;
+        background-color: #000000;
+        color: #FFFFFF;
+        font-size: 25px;
+        border-radius: 0 8px 8px 0;
+        box-sizing: border-box;
+        float: right;
+        cursor: pointer;
+
+    }
+    .image {
+        width: 80%;
+        height: auto;
+    }
+    .lower h2 {
+        margin-bottom: 10px; /* Add margin between each h2 element */
+    }
+
+    .lower p {
+        margin-bottom: 10px; /* Add margin between each paragraph element */
+    }
+    .extra-space {
+        margin-left: 750px;
+        
+    }
+    .extra-space1 {
+        margin-left: 180px;
+    }
+    .extra-space2 {
+        margin-left: 710px;
+        
+    }
+    .text11 {
+        color: #FFFFFF;
+    }
+    
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="upper">
+        <div class="left">
+            <h1>An inspiring design delivered to your inbox every morning</h1>
+            <p>Our team scouts the internet for the best designs, illustrations and art and delivers a truly inspiring one every day to your inbox.</p>
+        <h2>Show me how it looks</h2>
+        <div class="container">
+            <input type="email" class="email-input" placeholder="Your email address">
+        </div>
+        <br>
+       <div class="container">  <button class="register-button">Register Now</button>
+            </div>
+            
+        <div class="text11">
+            <p>Free - No Spam - No Data Sharing</p>
+        </div>
+        </div>
+        <div class="right">
+            <img class="image" src="dweep io 1.png" alt="Sample Image">
+        </div>
+    </div>
+    <div class="lower">
+       <samp><h2><span class='extra-space1'></span>Prompt Generator  <span class='extra-space'></span>&nbsp; Dweep.io</h2>
+        <h2><span class='extra-space1'></span>Dweep Daily <span class='extra-space'></span> Made with love in India</h2>
+
+        <h2><span class='extra-space1'></span>All Contributors <span class='extra-space'></span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <img src="InstagramLogo.png" alt="Small Logo"> <img src="LinkedinLogo.png" alt="Small Logo"></h2>
+        <h2><span class='extra-space1'></span>Your data on Dweep.io</h2>
+        <h2><span class='extra-space1'></span>Contribute to Dweep <span class='extra-space2'></span> hello@dweep.io</h2>
+       
+        </samp>
+    </div>
+</div>
+</body>
+</html>
+
